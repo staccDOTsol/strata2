@@ -1,0 +1,31 @@
+{
+  "extends": "../../tsconfig.root.json",
+  "references": [
+    
+    {
+      "path": "../marketplace-sdk"
+    },
+    {
+      "path": "../spl-utils"
+    },
+    {
+      "path": "../react"
+    },
+    {
+      "path": "./tsconfig.cjs.json"
+    },
+    {
+      "path": "./tsconfig.esm.json"
+    }
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "jsx": "preserve"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.root.json",
+  "references": [
+    {
+      "path": "./packages/marketplace-sdk"
+    },
+    {
+      "path": "./packages/marketplace-ui"
+    },
+    {
+      "path": "./packages/react"
+    },
+    {
+      "path": "./packages/spl-token-bonding"
+    },
+    {
+      "path": "./packages/spl-utils"
+    },
+    
+  ]
+}

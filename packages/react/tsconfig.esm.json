@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.esm.json",
+  "include": ["src", "/Users/jarettdunn/mega/mega2/packages/react/src/hooks/"],
+  "compilerOptions": {
+    "outDir": "lib/esm",
+    "declarationDir": "lib/types",
+    "jsx": "react"
+  }
+}
